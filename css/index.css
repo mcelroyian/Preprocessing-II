@@ -315,3 +315,8 @@ img {
   padding: 5% 0;
   text-align: center;
 }
+.home .content-pick .destination .btn:hover {
+  background-color: green;
+  height: 80px;
+  transition: background-color 2, height 2, transform 2;
+}

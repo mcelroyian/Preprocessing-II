@@ -9,3 +9,9 @@
     text-align: center;
 
 }
+
+.grow(@color, @height, @sec) {
+    background-color: @color;
+    height: @height;
+    transition: background-color @sec, height @sec, transform @sec;
+}
