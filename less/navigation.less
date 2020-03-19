@@ -11,6 +11,10 @@
         max-width: 800px;
         margin: 0 auto;
         align-items: center;
+
+        @media @mobile {
+            flex-direction: column;
+        }
     }
 
     .logo {
@@ -23,6 +27,10 @@
         justify-content: space-evenly;
         width: 50%;
         font-size: 1.5rem;
+
+        @media @mobile {
+            width: 100%;
+        }
 
         a {
             color: black;
