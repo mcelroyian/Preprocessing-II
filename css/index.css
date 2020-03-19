@@ -309,7 +309,7 @@ img {
 .home .content-pick .destination .btn {
   background-color: #17A2B8;
   color: #FFFFFF;
-  width: 100%;
+  width: 70%;
   border-radius: 10px;
   border: 1px solid silver;
   padding: 5% 0;
@@ -317,6 +317,7 @@ img {
 }
 .home .content-pick .destination .btn:hover {
   background-color: green;
-  height: 80px;
-  transition: background-color 2, height 2, transform 2;
+  transition-duration: 2.5s;
+  padding: 40px;
+  transition-property: background-color, padding;
 }

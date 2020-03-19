@@ -10,8 +10,14 @@
 
 }
 
-.grow(@color, @height, @sec) {
-    background-color: @color;
-    height: @height;
-    transition: background-color @sec, height @sec, transform @sec;
+.grow(@color, @size, @sec) {
+    
+
+    &:hover {
+        background-color: @color;
+        transition-duration: @sec;
+        padding: @size;
+        transition-property: background-color, padding;
+    }
+   
 }
